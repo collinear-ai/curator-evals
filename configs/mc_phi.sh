@@ -6,5 +6,5 @@ curator-evals --task math_correctness \
   --model-type llm \
   --use-server \
   --server-url http://localhost:8000 \
-  --input-format phi_math_correctness_prompt \
-  --output-format collinear_phi_judge
+  --input-format code_correctness_prompt \
+  --output-format collinear_code_qwen_judge

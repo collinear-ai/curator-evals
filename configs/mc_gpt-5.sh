@@ -10,6 +10,6 @@ curator-evals --task math_correctness \
   --provider openai \
   --api-key $OPENAI_API_KEY \
   --debug \
-  --input-format llama_math_correctness_prompt \
-  --output-format first_digit_after_output_key \
+  --input-format code_correctness_prompt \
+  --output-format collinear_code_qwen_judge \
   --debug

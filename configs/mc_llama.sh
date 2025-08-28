@@ -7,5 +7,5 @@ curator-evals --task math_correctness \
   --use-server \
   --server-url http://localhost:8000 \
   --debug \
-  --input-format llama_math_correctness_prompt \
-  --output-format collinear_llama3_judge
+  --input-format code_correctness_prompt \
+  --output-format collinear_code_qwen_judge

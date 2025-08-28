@@ -9,6 +9,6 @@ curator-evals --task math_correctness \
   --server-url None \
   --provider togetherai \
   --api-key $TOGETHER_API_KEY \
-  --input-format llama_math_correctness_prompt \
-  --output-format first_digit_after_output_key \
+  --input-format code_correctness_prompt \
+  --output-format collinear_code_qwen_judge \
   --debug
