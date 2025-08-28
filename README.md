@@ -6,8 +6,8 @@ A library for evaluating language models on various tasks using the Curator Eval
 
 - **Task-Specific Evaluations** – Evaluate models on code using Curator Eval Bench dataset.
 - **Flexible Model Support** – Works with LLMs on huggingface, togetherai, and openai.
-- **Detailed Metrics** – Provides accuracy, coherence scores, complexity ratings, and component breakdowns
-- **Command-Line and Python API** – Run quick CLI commands or integrate programmatically in your workflow
+- **Detailed Metrics** – Provides accuracy, coherence scores, complexity ratings, and component breakdowns.
+- **Command-Line and Python API** – Run quick CLI commands or integrate programmatically in your workflow.
 
 ## Setup
 
