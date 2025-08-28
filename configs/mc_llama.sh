@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Configuration for evaluating llama model on math correctness
+curator-evals --task math_correctness \
+  --model meta-llama/Llama-3.1-8B \
+  --model-type llm \
+  --use-server \
+  --server-url http://localhost:8000 \
+  --debug \
+  --input-format llama_math_correctness_prompt \
+  --output-format collinear_llama3_judge

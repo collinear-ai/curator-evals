@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/curator_evals.egg-info/PKG-INFO
+src/curator_evals.egg-info/SOURCES.txt
+src/curator_evals.egg-info/dependency_links.txt
+src/curator_evals.egg-info/entry_points.txt
+src/curator_evals.egg-info/requires.txt
+src/curator_evals.egg-info/top_level.txt
+tests/testPyPI.py

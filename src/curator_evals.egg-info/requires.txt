@@ -1,0 +1,16 @@
+datasets==3.6.0
+torch
+transformers
+numpy
+scikit-learn
+huggingface-hub
+jinja2
+bitsandbytes
+accelerate>=0.26.0
+peft
+vllm>=0.3.0
+aiohttp>=3.8.0
+requests>=2.31.0
+ray
+jupyter
+matplotlib

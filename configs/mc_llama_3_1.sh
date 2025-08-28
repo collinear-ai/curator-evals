@@ -1,0 +1,14 @@
+#!/bin/bash
+source .env
+echo $TOGETHER_API_KEY
+# Configuration for evaluating Meta-Llama-3.1-8B model using together ai on math correctness
+curator-evals --task math_correctness \
+  --model meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo \
+  --model-type llm \
+  --use-server \
+  --server-url None \
+  --provider togetherai \
+  --api-key $TOGETHER_API_KEY \
+  --input-format llama_math_correctness_prompt \
+  --output-format first_digit_after_output_key \
+  --debug
