@@ -2,7 +2,7 @@
 source .env
 echo $OPENAI_API_KEY
 # Configuration for evaluating gpt5 model on math correctness
-curator-evals --task math_correctness \
+curator-evals --task code_correctness \
   --model gpt-5 \
   --model-type llm \
   --use-server \

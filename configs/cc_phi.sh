@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration for evaluating Phi model on math correctness
-curator-evals --task math_correctness \
+curator-evals --task code_correctness \
   --model microsoft/Phi-3.5-mini-instruct \
   --model-type llm \
   --use-server \

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configuration for evaluating llama model on math correctness
-curator-evals --task math_correctness \
+curator-evals --task code_correctness \
   --model meta-llama/Llama-3.1-8B \
   --model-type llm \
   --use-server \

@@ -2,7 +2,7 @@
 source .env
 echo $TOGETHER_API_KEY
 # Configuration for evaluating Meta-Llama-3.1-8B model using together ai on math correctness
-curator-evals --task math_correctness \
+curator-evals --task code_correctness \
   --model meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo \
   --model-type llm \
   --use-server \
