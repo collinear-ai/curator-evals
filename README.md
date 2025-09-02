@@ -122,7 +122,7 @@ If you find Curator Evals useful, do not forget to cite us!
   author       = {Mackey, Tsach and Shafique, Muhammad Ali and Kumar, Anand},
   title        = {Curator Evals: A Benchmark for High-quality Post-training Data Curation},
   year         = {2025},
-  month        = sep,
+  month        = {Sep},
   howpublished = {\url{https://github.com/collinear-ai/curator-evals}}
 }
 ```
