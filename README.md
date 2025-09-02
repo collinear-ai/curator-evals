@@ -114,3 +114,15 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Citation
+If you find Curator Evals useful, do not forget to cite us!
+```
+@misc{curator-evals,
+  author       = {Mackey, Tsach and Shafique, Muhammad Ali},
+  title        = {Curator Evals: A Benchmark for High-quality Post-training Data Curation},
+  year         = {2025},
+  month        = sep,
+  howpublished = {\url{https://github.com/collinear-ai/curator-evals}}
+}
+```
