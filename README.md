@@ -119,7 +119,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 If you find Curator Evals useful, do not forget to cite us!
 ```
 @misc{curator-evals,
-  author       = {Mackey, Tsach and Shafique, Muhammad Ali},
+  author       = {Mackey, Tsach and Shafique, Muhammad Ali and Kumar, Anand},
   title        = {Curator Evals: A Benchmark for High-quality Post-training Data Curation},
   year         = {2025},
   month        = sep,
