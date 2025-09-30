@@ -92,10 +92,10 @@ class AsyncApiServer:
                         }
                     ) as response:
                         result = await response.json()
-                        return {"text": result["choices"][0]["text"]}
+                        return {"formatted_prompt": formatted_prompt, "text": result["choices"][0]["text"]}
             except Exception as e:
                 print(f"Request failed: {e}")
-                return {"text": ""}
+                return {"formatted_prompt": formatted_prompt, "text": ""}
         
         # Process requests concurrently with rate limiting
         semaphore = asyncio.Semaphore(5)

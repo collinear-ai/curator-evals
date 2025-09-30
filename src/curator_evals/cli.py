@@ -21,7 +21,7 @@ async def evaluate(task: str, model_info: Dict, debug: bool = False):
     """
 
     # Load the dataset for the specific task
-    data = load_dataset("collinear-ai/curator_evals_bench", split="default") # ONLY CODE CORRECTNESS
+    data = load_dataset("collinear-ai/curator_evals_bench", task, split="default") # ONLY CODE CORRECTNESS
     if debug:
         print("Debug mode enabled, selecting 100 examples")
         data = data.shuffle(seed=42)

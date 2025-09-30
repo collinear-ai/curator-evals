@@ -14,17 +14,39 @@ def _first_digit_after_key(text: str, key_string: str = "[RESULT]") -> int:
         pass
     return 0
 
+# def _extract_json_output(text: str) -> int:
+#     """Extract output from JSON response"""
+#     try:
+#         # Find JSON object in text
+#         json_match = re.search(r'\{[^}]*"output"[^}]*\}', text)
+#         if json_match:
+#             json_str = json_match.group(0)
+#             data = json.loads(json_str)
+#             return int(data.get("output", 0))
+#     except:
+#         pass
+#     return 0
+
 def _extract_json_output(text: str) -> int:
     """Extract output from JSON response"""
+    # First try: regex to directly extract the "output" value
     try:
-        # Find JSON object in text
-        json_match = re.search(r'\{[^}]*"output"[^}]*\}', text)
-        if json_match:
-            json_str = json_match.group(0)
-            data = json.loads(json_str)
-            return int(data.get("output", 0))
+        output_match = re.search(r'"output"\s*:\s*(\d+)', text)
+        if output_match:
+            return int(output_match.group(1))
     except:
         pass
+    
+    # Fallback: try full JSON parsing
+    try:
+        cleaned = re.sub(r'```(?:json)?\s*', '', text).strip()
+        data = json.loads(cleaned, strict=False)
+        return int(data.get("output", 0))
+    except:
+        pass
+    
+    # Both methods failed
+    print(f"Failed to extract output. Text preview: {text[:150]}")
     return 0
 
 def _extract_phi_output(text: str) -> int:
