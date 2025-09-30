@@ -1,6 +1,6 @@
 # Curator Evals
 
-A library for evaluating language models on various tasks using the Curator Eval Bench dataset.
+A library for evaluating language models on various tasks using the Curator Eval Bench dataset
 
 ## Features
 
