@@ -2,6 +2,14 @@
 
 A library for evaluating language models on various tasks using the Curator Eval Bench dataset
 
+## 🎉 What's New
+
+- [2025.10.02] Added Math Correctness evaluation metric with support for accuracy, precision, recall, F1, and new prompt options (`llama_math_correctness_prompt`, `phi_math_correctness_prompt`).
+- [2025.09.04] Added support for Together.ai hosted models with asynchronous generation and built-in rate limiting for efficient concurrent requests.
+- [2025.08.23] Improved OpenAI integration with asynchronous generation, concurrent request handling, and reasoning support for GPT-5 and o-series models.  
+- [2025.08.19] Added vLLM integration with chat template support, asynchronous generation, and concurrent request handling for efficient completions. 
+
+
 ## Features
 
 - **Task-Specific Evaluations** – Evaluate models on code using Curator Eval Bench dataset.
