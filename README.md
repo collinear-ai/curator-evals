@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://deepwiki.ai" target="_blank">
-    <img src="https://img.shields.io/badge/DeepWiki-000000?style=for-the-badge&logo=readme&logoColor=white" alt="DeepWiki"/>
+  <a href="https://deepwiki.com/collinear-ai/curator-evals" target="_blank">
+    <img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"/>
   </a>
-  <a href="https://blog.bespokelabs.ai" target="_blank">
+  <a href="https://blog.collinear.ai/p/curator-evals" target="_blank">
     <img src="https://img.shields.io/badge/Blog-FF5733?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog"/>
   </a>
 </p>
