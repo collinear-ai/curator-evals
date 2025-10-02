@@ -8,8 +8,8 @@
   <a href="https://deepwiki.com/collinear-ai/curator-evals" target="_blank">
     <img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"/>
   </a>
-  <a href="https://blog.collinear.ai/p/curator-evals" target="_blank">
-    <img src="https://img.shields.io/badge/Blog-FF5733?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog"/>
+  <a href="https://blog.collinear.ai/p/curator-evals">
+    <img src="https://img.shields.io/badge/Blog-FF5733?style=for-the-badge&logoColor=white&labelColor=FF5733&color=FF5733" alt="Blog"/>
   </a>
 </p>
 
