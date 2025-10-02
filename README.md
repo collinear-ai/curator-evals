@@ -1,6 +1,10 @@
 <h1 align="center">Curator Evals</h1>
 
 <p align="center">
+  A library for evaluating language models on various tasks using the Curator Eval Bench dataset
+</p>
+
+<p align="center">
   <a href="https://deepwiki.ai" target="_blank">
     <img src="https://img.shields.io/badge/DeepWiki-000000?style=for-the-badge&logo=readme&logoColor=white" alt="DeepWiki"/>
   </a>
@@ -9,9 +13,10 @@
   </a>
 </p>
 
+<!--
 # Curator Evals
 
-A library for evaluating language models on various tasks using the Curator Eval Bench dataset
+A library for evaluating language models on various tasks using the Curator Eval Bench dataset -->
 
 ## 🎉 What's New
 
