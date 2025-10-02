@@ -103,6 +103,76 @@ You can find more examples in `configs` folder.
 </div>
 
 
+<h2 style="text-align:center;">Math Correctness LeaderBoard</h2>
+
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Model</th>
+      <th>Accuracy (%)</th>
+      <th>Precision</th>
+      <th>Recall</th>
+      <th>F1</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Qwen3-8B</td>
+      <td align="center"><b>93.95</b></td>
+      <td align="center">0.968</td>
+      <td align="center">0.970</td>
+      <td align="center">0.969</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Qwen2.5-Coder-7B-Instruct</td>
+      <td align="center">93.90</td>
+      <td align="center">0.969</td>
+      <td align="center">0.968</td>
+      <td align="center">0.968</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>gemma-3-12b-it</td>
+      <td align="center">93.75</td>
+      <td align="center">0.968</td>
+      <td align="center">0.967</td>
+      <td align="center">0.968</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Seed-Coder-8B-Instruct</td>
+      <td align="center">87.20</td>
+      <td align="center">0.967</td>
+      <td align="center">0.898</td>
+      <td align="center">0.931</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Qwen2.5-Coder-3B-Instruct</td>
+      <td align="center">86.30</td>
+      <td align="center">0.966</td>
+      <td align="center">0.889</td>
+      <td align="center">0.926</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>DeepSeek-R1-0528-Qwen3-8B</td>
+      <td align="center">76.00</td>
+      <td align="center">0.967</td>
+      <td align="center">0.779</td>
+      <td align="center">0.863</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+
 ## Benchmarking Details
 
 The evaluation dataset is hosted on HuggingFace Hub at `collinear-ai/curator_evals_bench`. Each task is a subset of the dataset, containing different splits for various dataset sources.
