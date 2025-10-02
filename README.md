@@ -1,3 +1,14 @@
+<h1 align="center">Curator Evals</h1>
+
+<p align="center">
+  <a href="https://deepwiki.ai" target="_blank">
+    <img src="https://img.shields.io/badge/DeepWiki-000000?style=for-the-badge&logo=readme&logoColor=white" alt="DeepWiki"/>
+  </a>
+  <a href="https://blog.bespokelabs.ai" target="_blank">
+    <img src="https://img.shields.io/badge/Blog-FF5733?style=for-the-badge&logo=hashnode&logoColor=white" alt="Blog"/>
+  </a>
+</p>
+
 # Curator Evals
 
 A library for evaluating language models on various tasks using the Curator Eval Bench dataset
