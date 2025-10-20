@@ -129,6 +129,12 @@ You can find more examples in `configs` folder.
 
 <h2 style="text-align:center;">Math Correctness LeaderBoard</h2>
 
+<p style="text-align:center; font-size:14px; color:gray;">
+Evaluated using <code>--task math_correctness</code> with 
+<code>--input-format phi_math_correctness_prompt</code> and 
+<code>--output-format collinear_phi_judge</code>.
+</p>
+
 <div align="center">
 
 <table>
