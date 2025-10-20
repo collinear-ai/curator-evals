@@ -82,6 +82,13 @@ You can find more examples in `configs` folder.
 | 6   | Qwen2.5-Coder-3B-Instruct       | 46.77 | -->
 <h2 style="text-align:center;">Code Correctness LeaderBoard</h2>
 
+<p style="text-align:center; font-size:14px; color:gray;">
+Evaluated using <code>--task code_correctness</code> with 
+<code>--input-format code_correctness_prompt</code> and 
+<code>--output-format collinear_code_qwen_judge</code>.
+</p>
+
+
 <div align="center">
 
 <table>
