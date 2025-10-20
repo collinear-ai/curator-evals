@@ -197,6 +197,41 @@ You can find more examples in `configs` folder.
 </div>
 
 
+<h2 style="text-align:center;">Coherence Evaluation Leaderboard</h2>
+
+<div align="center">
+
+<table>
+  <thead>
+    <tr>
+      <th>Rank</th>
+      <th>Model</th>
+      <th>Preference Ranking Agreement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>gemma-3-12b-it</td>
+      <td align="center"><b>0.8189</b></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Qwen2.5-Coder-3B-Instruct</td>
+      <td align="center">0.8052</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Qwen2.5-Coder-7B-Instruct</td>
+      <td align="center">0.7866</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+
+
 ## Benchmarking Details
 
 The evaluation dataset is hosted on HuggingFace Hub at `collinear-ai/curator_evals_bench`. Each task is a subset of the dataset, containing different splits for various dataset sources.
