@@ -20,6 +20,8 @@ A library for evaluating language models on various tasks using the Curator Eval
 
 ## 🎉 What's New
 
+- [2025.10.20] Added Coherence evaluation metric using preference_ranking_agreement, with new input/output formats (`coherence_llm_judge`, `collinear_llama3_judge`).
+- [2025.10.16] Introduced the preference_ranking_agreement() function, a new metric for evaluating alignment between model-generated preference scores and human-annotated rankings.
 - [2025.10.02] Added Math Correctness evaluation metric with support for accuracy, precision, recall, F1, and new prompt options (`llama_math_correctness_prompt`, `phi_math_correctness_prompt`).
 - [2025.09.04] Added support for Together.ai hosted models with asynchronous generation and built-in rate limiting for efficient concurrent requests.
 - [2025.08.23] Improved OpenAI integration with asynchronous generation, concurrent request handling, and reasoning support for GPT-5 and o-series models.  
