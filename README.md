@@ -38,9 +38,9 @@ A library for evaluating language models on various tasks using the Curator Eval
 ## Setup
 
 ```bash
-conda create -n curator python=3.11 -y
+conda create -n collinear python=3.11 -y
 
-conda activate curator
+conda activate collinear
 
 git clone https://github.com/collinear-ai/curator-evals.git
 
