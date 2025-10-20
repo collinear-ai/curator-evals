@@ -199,6 +199,12 @@ You can find more examples in `configs` folder.
 
 <h2 style="text-align:center;">Coherence Evaluation Leaderboard</h2>
 
+<p style="text-align:center; font-size:14px; color:gray;">
+Evaluated using <code>--task coherence</code> with 
+<code>--input-format coherence_llm_judge</code> and 
+<code>--output-format collinear_llama3_judge</code>.
+</p>
+
 <div align="center">
 
 <table>
