@@ -246,6 +246,16 @@ Evaluated using <code>--task coherence</code> with
       <td>Qwen2.5-Coder-7B-Instruct</td>
       <td align="center">0.7866</td>
     </tr>
+    <tr>
+      <td>4</td>
+      <td>DeepSeek-R1-0528-Qwen3-8B</td>
+      <td align="center">0.7754</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Qwen3-8B</td>
+      <td align="center">0.7593</td>
+    </tr>
   </tbody>
 </table>
 
